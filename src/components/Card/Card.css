@@ -1,0 +1,49 @@
+.card {
+  max-width: 692px;
+  max-height: 472px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+}
+.title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.55%;
+  color: #000000;
+}
+.card-text {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 134.17%;
+  color: #5c5c5c;
+}
+.username {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  color: #000000;
+}
+.views {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #525252;
+}
+.share {
+  width: 42px;
+  height: 36px;
+  background: #edeef0;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

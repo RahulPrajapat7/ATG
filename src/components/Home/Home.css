@@ -1,0 +1,87 @@
+.bgContainer {
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%) indigo; */
+}
+
+.bgContainer > div {
+  width: 500px;
+  position: relative;
+  top: -200px;
+  left: 200px;
+}
+
+.bgContainer h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 47px;
+  color: #ffffff;
+}
+.bgContainer p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.homeBg {
+  width: 98.9vw;
+  opacity: 0.9;
+}
+
+.postbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.postMenu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.post-menu-item {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #8a8a8a;
+  margin-right: 20px;
+}
+.active {
+  color: black;
+  border-bottom: 1px solid #000000;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+}
+.info {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000000;
+  opacity: 0.5;
+}
+.location {
+  border-bottom: 0.4px solid #b8b8b8;
+}
+.location input {
+  border: none;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}

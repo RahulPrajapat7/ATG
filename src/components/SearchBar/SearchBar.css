@@ -1,0 +1,25 @@
+.searchBar {
+  width: 450px;
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 21px;
+  padding: 0 15px;
+}
+.searchBar img {
+  width: 25px;
+  height: 25px;
+}
+.searchBar input {
+  width: 90%;
+  border: none;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #5c5c5c;
+  background: transparent;
+  outline: none;
+}
